@@ -1,0 +1,7 @@
+第一步：先粘贴以下代码测试平台是否允许 iframe。
+
+<iframe srcdoc="<!doctype html><meta charset='utf-8'><style>body{font-family:Microsoft YaHei,sans-serif;padding:24px;background:#f4f8f5}button{font-size:20px;padding:14px 24px;border:0;border-radius:6px;background:#176b42;color:white}</style><button onclick=&quot;this.textContent='测试成功：可以交互'&quot;>点击测试交互</button>" style="width:100%;height:180px;border:0" title="HTML内嵌能力测试"></iframe>
+
+第二步：部署完成后，将下面的地址替换成小游戏的 HTTPS 地址。
+
+<iframe src="https://你的域名/方药智慧训练场/index.html" style="width:100%;height:900px;border:0" allow="fullscreen" title="方药智慧训练场"></iframe>
