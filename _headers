@@ -1,0 +1,4 @@
+/*
+  Content-Security-Policy: frame-ancestors 'self' https://*.chaoxing.com https://*.chaoxing.com.cn
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Content-Type-Options: nosniff
